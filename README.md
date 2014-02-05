@@ -1,0 +1,1 @@
+# RoR 4.0 Tutorial: sample application
