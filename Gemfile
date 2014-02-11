@@ -3,7 +3,7 @@ ruby '2.0.0'
 #ruby-gemset=railstutorial_rails_4_0
 
 gem 'rails', '4.0.2'
-gem "bootstrap-sass", "~> 3.1.0.2"
+gem 'bootstrap-sass', '~> 3.1.0.2'
 gem 'bcrypt-ruby', '3.1.2'
 
 
@@ -15,6 +15,7 @@ end
 group :test do
   gem 'selenium-webdriver', '2.35.1'
   gem 'capybara', '2.1.0'
+  gem 'factory_girl_rails', '4.2.1'
 end
 
 gem 'sass-rails', '4.0.1'
